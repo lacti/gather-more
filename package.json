@@ -1,0 +1,33 @@
+{
+  "name": "aws-nodejs-typescript-template",
+  "version": "1.0.0",
+  "description": "Minimal Serverless aws-nodejs-typescript template",
+  "main": "serverless.ts",
+  "scripts": {
+    "build": "sls package",
+    "deploy": "sls deploy"
+  },
+  "engines": {
+    "node": ">=14.15.0"
+  },
+  "dependencies": {
+    "@yingyeothon/naive-redis": "^0.3.3",
+    "jsonwebtoken": "^8.5.1",
+    "source-map-support": "^0.5.20"
+  },
+  "devDependencies": {
+    "@serverless/typescript": "^2.64.1",
+    "@types/aws-lambda": "^8.10.84",
+    "@types/jsonwebtoken": "^8.5.5",
+    "@types/node": "14",
+    "serverless": "^2.64.1",
+    "serverless-offline": "^8.2.0",
+    "serverless-webpack": "^5.5.5",
+    "ts-loader": "^9.2.6",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4",
+    "webpack": "^5.61.0"
+  },
+  "author": "jaeyoung.choi <lactrious@gmail.com>",
+  "license": "MIT"
+}
